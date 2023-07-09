@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
-@Document(collation = "movies")
+@Document(collection = "movies")
 @Data //Take care of all getter setter and string methods
 @AllArgsConstructor //Creating and construct all private fields as arguments
 @NoArgsConstructor //No parameters
